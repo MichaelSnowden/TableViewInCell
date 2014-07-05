@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93753A9F1967E4DA000377BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93753A9E1967E4DA000377BC /* Foundation.framework */; };
+		93753AA11967E4DA000377BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93753AA01967E4DA000377BC /* CoreGraphics.framework */; };
+		93753AA31967E4DA000377BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93753AA21967E4DA000377BC /* UIKit.framework */; };
+		93753AA91967E4DA000377BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93753AA71967E4DA000377BC /* InfoPlist.strings */; };
+		93753AAB1967E4DA000377BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93753AAA1967E4DA000377BC /* main.m */; };
+		93753AAF1967E4DA000377BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93753AAE1967E4DA000377BC /* AppDelegate.m */; };
+		93753AB21967E4DA000377BC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93753AB01967E4DA000377BC /* Main_iPhone.storyboard */; };
+		93753ABA1967E4DA000377BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93753AB91967E4DA000377BC /* Images.xcassets */; };
+		93753AC11967E4DA000377BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93753AC01967E4DA000377BC /* XCTest.framework */; };
+		93753AC21967E4DA000377BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93753A9E1967E4DA000377BC /* Foundation.framework */; };
+		93753AC31967E4DA000377BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93753AA21967E4DA000377BC /* UIKit.framework */; };
+		93753ACB1967E4DA000377BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93753AC91967E4DA000377BC /* InfoPlist.strings */; };
+		93753ACD1967E4DA000377BC /* MovableSectionTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93753ACC1967E4DA000377BC /* MovableSectionTableViewControllerTests.m */; };
+		93753AD81967F07E000377BC /* TableViewControllerWithEditableSections.m in Sources */ = {isa = PBXBuildFile; fileRef = 93753AD71967F07E000377BC /* TableViewControllerWithEditableSections.m */; };
+		93753ADB1967F72A000377BC /* CellWithTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93753ADA1967F72A000377BC /* CellWithTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93753AC41967E4DA000377BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93753A931967E4DA000377BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93753A9A1967E4DA000377BC;
+			remoteInfo = MovableSectionTableViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93753A9B1967E4DA000377BC /* MovableSectionTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovableSectionTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93753A9E1967E4DA000377BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93753AA01967E4DA000377BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93753AA21967E4DA000377BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93753AA61967E4DA000377BC /* MovableSectionTableViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovableSectionTableViewController-Info.plist"; sourceTree = "<group>"; };
+		93753AA81967E4DA000377BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93753AAA1967E4DA000377BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93753AAC1967E4DA000377BC /* MovableSectionTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovableSectionTableViewController-Prefix.pch"; sourceTree = "<group>"; };
+		93753AAD1967E4DA000377BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93753AAE1967E4DA000377BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93753AB11967E4DA000377BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		93753AB91967E4DA000377BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93753ABF1967E4DA000377BC /* MovableSectionTableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovableSectionTableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93753AC01967E4DA000377BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93753AC81967E4DA000377BC /* MovableSectionTableViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovableSectionTableViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		93753ACA1967E4DA000377BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93753ACC1967E4DA000377BC /* MovableSectionTableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovableSectionTableViewControllerTests.m; sourceTree = "<group>"; };
+		93753AD61967F07E000377BC /* TableViewControllerWithEditableSections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerWithEditableSections.h; sourceTree = "<group>"; };
+		93753AD71967F07E000377BC /* TableViewControllerWithEditableSections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerWithEditableSections.m; sourceTree = "<group>"; };
+		93753AD91967F72A000377BC /* CellWithTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellWithTableView.h; sourceTree = "<group>"; };
+		93753ADA1967F72A000377BC /* CellWithTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellWithTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93753A981967E4DA000377BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93753AA11967E4DA000377BC /* CoreGraphics.framework in Frameworks */,
+				93753AA31967E4DA000377BC /* UIKit.framework in Frameworks */,
+				93753A9F1967E4DA000377BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93753ABC1967E4DA000377BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93753AC11967E4DA000377BC /* XCTest.framework in Frameworks */,
+				93753AC31967E4DA000377BC /* UIKit.framework in Frameworks */,
+				93753AC21967E4DA000377BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93753A921967E4DA000377BC = {
+			isa = PBXGroup;
+			children = (
+				93753AA41967E4DA000377BC /* MovableSectionTableViewController */,
+				93753AC61967E4DA000377BC /* MovableSectionTableViewControllerTests */,
+				93753A9D1967E4DA000377BC /* Frameworks */,
+				93753A9C1967E4DA000377BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93753A9C1967E4DA000377BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93753A9B1967E4DA000377BC /* MovableSectionTableViewController.app */,
+				93753ABF1967E4DA000377BC /* MovableSectionTableViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93753A9D1967E4DA000377BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93753A9E1967E4DA000377BC /* Foundation.framework */,
+				93753AA01967E4DA000377BC /* CoreGraphics.framework */,
+				93753AA21967E4DA000377BC /* UIKit.framework */,
+				93753AC01967E4DA000377BC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93753AA41967E4DA000377BC /* MovableSectionTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93753AAD1967E4DA000377BC /* AppDelegate.h */,
+				93753AAE1967E4DA000377BC /* AppDelegate.m */,
+				93753AB01967E4DA000377BC /* Main_iPhone.storyboard */,
+				93753AD61967F07E000377BC /* TableViewControllerWithEditableSections.h */,
+				93753AD71967F07E000377BC /* TableViewControllerWithEditableSections.m */,
+				93753AD91967F72A000377BC /* CellWithTableView.h */,
+				93753ADA1967F72A000377BC /* CellWithTableView.m */,
+				93753AB91967E4DA000377BC /* Images.xcassets */,
+				93753AA51967E4DA000377BC /* Supporting Files */,
+			);
+			path = MovableSectionTableViewController;
+			sourceTree = "<group>";
+		};
+		93753AA51967E4DA000377BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93753AA61967E4DA000377BC /* MovableSectionTableViewController-Info.plist */,
+				93753AA71967E4DA000377BC /* InfoPlist.strings */,
+				93753AAA1967E4DA000377BC /* main.m */,
+				93753AAC1967E4DA000377BC /* MovableSectionTableViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93753AC61967E4DA000377BC /* MovableSectionTableViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				93753ACC1967E4DA000377BC /* MovableSectionTableViewControllerTests.m */,
+				93753AC71967E4DA000377BC /* Supporting Files */,
+			);
+			path = MovableSectionTableViewControllerTests;
+			sourceTree = "<group>";
+		};
+		93753AC71967E4DA000377BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93753AC81967E4DA000377BC /* MovableSectionTableViewControllerTests-Info.plist */,
+				93753AC91967E4DA000377BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93753A9A1967E4DA000377BC /* MovableSectionTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93753AD01967E4DA000377BC /* Build configuration list for PBXNativeTarget "MovableSectionTableViewController" */;
+			buildPhases = (
+				93753A971967E4DA000377BC /* Sources */,
+				93753A981967E4DA000377BC /* Frameworks */,
+				93753A991967E4DA000377BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovableSectionTableViewController;
+			productName = MovableSectionTableViewController;
+			productReference = 93753A9B1967E4DA000377BC /* MovableSectionTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93753ABE1967E4DA000377BC /* MovableSectionTableViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93753AD31967E4DA000377BC /* Build configuration list for PBXNativeTarget "MovableSectionTableViewControllerTests" */;
+			buildPhases = (
+				93753ABB1967E4DA000377BC /* Sources */,
+				93753ABC1967E4DA000377BC /* Frameworks */,
+				93753ABD1967E4DA000377BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93753AC51967E4DA000377BC /* PBXTargetDependency */,
+			);
+			name = MovableSectionTableViewControllerTests;
+			productName = MovableSectionTableViewControllerTests;
+			productReference = 93753ABF1967E4DA000377BC /* MovableSectionTableViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93753A931967E4DA000377BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Michael Snowden";
+				TargetAttributes = {
+					93753ABE1967E4DA000377BC = {
+						TestTargetID = 93753A9A1967E4DA000377BC;
+					};
+				};
+			};
+			buildConfigurationList = 93753A961967E4DA000377BC /* Build configuration list for PBXProject "MovableSectionTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93753A921967E4DA000377BC;
+			productRefGroup = 93753A9C1967E4DA000377BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93753A9A1967E4DA000377BC /* MovableSectionTableViewController */,
+				93753ABE1967E4DA000377BC /* MovableSectionTableViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93753A991967E4DA000377BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93753ABA1967E4DA000377BC /* Images.xcassets in Resources */,
+				93753AB21967E4DA000377BC /* Main_iPhone.storyboard in Resources */,
+				93753AA91967E4DA000377BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93753ABD1967E4DA000377BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93753ACB1967E4DA000377BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93753A971967E4DA000377BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93753AD81967F07E000377BC /* TableViewControllerWithEditableSections.m in Sources */,
+				93753AAF1967E4DA000377BC /* AppDelegate.m in Sources */,
+				93753ADB1967F72A000377BC /* CellWithTableView.m in Sources */,
+				93753AAB1967E4DA000377BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93753ABB1967E4DA000377BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93753ACD1967E4DA000377BC /* MovableSectionTableViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93753AC51967E4DA000377BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93753A9A1967E4DA000377BC /* MovableSectionTableViewController */;
+			targetProxy = 93753AC41967E4DA000377BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93753AA71967E4DA000377BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93753AA81967E4DA000377BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93753AB01967E4DA000377BC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93753AB11967E4DA000377BC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		93753AC91967E4DA000377BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93753ACA1967E4DA000377BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93753ACE1967E4DA000377BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93753ACF1967E4DA000377BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93753AD11967E4DA000377BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovableSectionTableViewController/MovableSectionTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "MovableSectionTableViewController/MovableSectionTableViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93753AD21967E4DA000377BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovableSectionTableViewController/MovableSectionTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "MovableSectionTableViewController/MovableSectionTableViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93753AD41967E4DA000377BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MovableSectionTableViewController.app/MovableSectionTableViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovableSectionTableViewController/MovableSectionTableViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MovableSectionTableViewControllerTests/MovableSectionTableViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		93753AD51967E4DA000377BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MovableSectionTableViewController.app/MovableSectionTableViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MovableSectionTableViewController/MovableSectionTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "MovableSectionTableViewControllerTests/MovableSectionTableViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93753A961967E4DA000377BC /* Build configuration list for PBXProject "MovableSectionTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93753ACE1967E4DA000377BC /* Debug */,
+				93753ACF1967E4DA000377BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93753AD01967E4DA000377BC /* Build configuration list for PBXNativeTarget "MovableSectionTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93753AD11967E4DA000377BC /* Debug */,
+				93753AD21967E4DA000377BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93753AD31967E4DA000377BC /* Build configuration list for PBXNativeTarget "MovableSectionTableViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93753AD41967E4DA000377BC /* Debug */,
+				93753AD51967E4DA000377BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93753A931967E4DA000377BC /* Project object */;
+}
